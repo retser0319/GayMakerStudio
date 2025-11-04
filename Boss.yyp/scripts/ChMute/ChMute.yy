@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ChMute",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ChMute",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
