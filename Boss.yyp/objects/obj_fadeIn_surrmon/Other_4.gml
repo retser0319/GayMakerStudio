@@ -1,1 +1,0 @@
-instance_create_depth(0,0,-999999,obj_fadeIn)
