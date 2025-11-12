@@ -11,4 +11,5 @@ dir = 1
 
 gravity_ = 1      // 중력 가속도
 
-wall_jump = 0;
+wall_jump = 0
+last_wall_jump = noone
