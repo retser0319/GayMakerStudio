@@ -1,0 +1,3 @@
+global.BossHP = 1000
+
+alarm[0] = 120

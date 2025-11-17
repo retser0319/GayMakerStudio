@@ -71,7 +71,9 @@ if (keyboard_check_pressed(ord("X")))
 {
 	on_attack = true
 	image_index = 0
-	if (on_ground)
+	if (on_ground and attackNum == 3)
+		alarm[1] = 60
+	else if (on_ground)
 		alarm[1] = 30
 	else {
 		vspd = jump_strength / 2
