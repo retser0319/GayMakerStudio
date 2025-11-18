@@ -1,1 +1,2 @@
-wall_jump = 0
+unDamaged = false
+blend = c_white

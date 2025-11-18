@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid",
+  "%Name":"Boss_Skill_1_3",
   "eventList":[],
   "managed":true,
-  "name":"obj_solid",
+  "name":"Boss_Skill_1_3",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obj_plat_1",
-    "path":"sprites/spr_obj_plat_1/spr_obj_plat_1.yy",
+    "name":"spr_obj_plat",
+    "path":"sprites/spr_obj_plat/spr_obj_plat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

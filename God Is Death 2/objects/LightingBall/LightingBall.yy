@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid",
+  "%Name":"LightingBall",
   "eventList":[],
   "managed":true,
-  "name":"obj_solid",
+  "name":"LightingBall",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obj_plat_1",
-    "path":"sprites/spr_obj_plat_1/spr_obj_plat_1.yy",
+    "name":"lightningball",
+    "path":"sprites/lightningball/lightningball.yy",
   },
   "spriteMaskId":null,
   "visible":true,

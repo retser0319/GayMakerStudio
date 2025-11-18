@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obj_plat",
-    "path":"sprites/spr_obj_plat/spr_obj_plat.yy",
+    "name":"spr_obj_plat_1",
+    "path":"sprites/spr_obj_plat_1/spr_obj_plat_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

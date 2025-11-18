@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid",
-  "eventList":[],
+  "%Name":"Boss_Skill_1_2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_solid",
+  "name":"Boss_Skill_1_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_obj_plat_1",
-    "path":"sprites/spr_obj_plat_1/spr_obj_plat_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

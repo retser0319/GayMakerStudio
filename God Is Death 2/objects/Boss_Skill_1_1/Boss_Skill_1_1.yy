@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Boss_Skill_Tunder",
+  "%Name":"Boss_Skill_1_1",
   "eventList":[],
   "managed":true,
-  "name":"Boss_Skill_Tunder",
+  "name":"Boss_Skill_1_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
