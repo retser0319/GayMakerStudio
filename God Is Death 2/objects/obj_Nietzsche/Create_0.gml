@@ -1,4 +1,3 @@
-status = "idle"
 moveSpeed = 10
 
 hspd = 0
@@ -13,3 +12,7 @@ gravity_ = 1      // 중력 가속도
 
 wall_jump = 0
 last_wall_jump = noone
+
+// 상태 변수
+status = "idle"
+last_hit_wall = noone
