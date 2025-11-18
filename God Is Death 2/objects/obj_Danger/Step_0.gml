@@ -1,0 +1,1 @@
+if(moves == true) x = obj_Nietzsche.x
