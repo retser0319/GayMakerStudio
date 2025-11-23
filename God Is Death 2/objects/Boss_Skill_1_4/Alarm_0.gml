@@ -4,7 +4,7 @@ if (instance_exists(player)) {
 }
 
 count++
-if (count < 120)
+if (count < 120 / global.BossPaze)
 	alarm[0] = 1
 else
-	alarm[1] = 15
+	alarm[1] = 15 / global.BossPaze

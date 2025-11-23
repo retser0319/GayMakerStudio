@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"lightningball",
+    "path":"sprites/lightningball/lightningball.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

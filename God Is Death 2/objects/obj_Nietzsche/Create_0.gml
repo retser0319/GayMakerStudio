@@ -9,7 +9,6 @@ jump_count = 0
 jump_max = 2
 
 gravity_ = 1      // 중력 가속도
-
 attackNum = 1
 wall_jump = 0
 

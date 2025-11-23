@@ -1,17 +1,13 @@
-ball = instance_create_layer(x,y,"Instances",LightingBall)
+ball = instance_create_layer(x,y,"Effect",LightingBall)
 
-if (count > 50 and count < 100)
-	ball.direction = -count * 31
-else
-	ball.direction = count * 31
-ball.speed = 15
+ball.direction = dir * count * 51
+ball.speed = 10
 
 count++
 
-if (count < 150)
+if (count < 60)
 {
-	if (count == 50 or count == 100 or count == 150) alarm[0] = 15
-	else alarm[0] = 2
+	alarm[0] = 5
 }
 else
 	instance_destroy(self)

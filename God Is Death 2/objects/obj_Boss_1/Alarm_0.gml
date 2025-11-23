@@ -1,21 +1,39 @@
-var skill_num = 3 //random_range(0,4)
+var skill_num = choose(1,2,5)
+
+if (global.BossHP < 500 and global.BossPaze == 1) 
+{
+	image_blend = c_red
+	global.BossPaze = 2
+	alarm[0] = 240
+}
 
 if (skill_num == 1) 
 {
-	instance_create_layer(x,room_height, "Effect", Boss_Skill_1_1)
-	alarm[0] = 120
+	instance_create_layer(x,2040, "Effect", Boss_Skill_1_1)
+	alarm[0] = 480
+	alarm[1] = 1
 }
 if (skill_num == 2) 
 {
-	instance_create_layer(x,850, "Effect", Boss_Skill_1_2)
-	alarm[0] = 360
+	if (global.BossPaze == 2) {
+		instance_create_layer(x-400,1200, "Effect", Boss_Skill_1_2)
+		instance_create_layer(x+400,1200, "Effect", Boss_Skill_1_2)
+	}
+	else {
+		instance_create_layer(x,1200, "Effect", Boss_Skill_1_2)
+	}
+	alarm[0] = 480
 }
-if (skill_num == 3) 
+if (skill_num == 5) 
 {
-	instance_create_layer(x,850, "Effect", Boss_Skill_1_4)
-	alarm[0] = 300
-}
-if (skill_num == 4) 
-{
+	target = instance_nearest(x,y, obj_Nietzsche)
+	for (var i = 0; i < global.BossPaze; i++) 
+	{
+		instance_create_layer(target.x + random_range(-1500, 1500), room_height, "Effect", Boss_Skill_1_5)
+		instance_create_layer(target.x + random_range(-1500, 1500), room_height, "Effect", Boss_Skill_1_5)
+		instance_create_layer(target.x + random_range(-1500, 1500), room_height, "Effect", Boss_Skill_1_5)
+		instance_create_layer(target.x + random_range(-1500, 1500), room_height, "Effect", Boss_Skill_1_5)
+	}
 	
+	alarm[0] = 240
 }
