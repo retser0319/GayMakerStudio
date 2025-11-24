@@ -36,5 +36,5 @@
     "path":"sprites/spr_obj_plat/spr_obj_plat.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

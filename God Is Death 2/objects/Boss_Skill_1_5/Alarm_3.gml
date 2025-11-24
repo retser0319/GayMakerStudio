@@ -1,3 +1,1 @@
-global.PlayerHP -= 5
-
 instance_destroy(self)
