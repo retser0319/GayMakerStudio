@@ -1,3 +1,6 @@
+if (keyboard_check(ord("P")))
+	game_end()
+	
 var on_ground = place_meeting(x, y+1, obj_solid)
 var on_dir = keyboard_check(vk_right) - keyboard_check(vk_left)
 
@@ -7,6 +10,7 @@ if (lastHP > global.PlayerHP) {
 	blend = c_red
 	alarm[0] = 5
 }
+if (global.PlayerHP <= 0) game_restart()
 
 if (status != "attack" and status != "stunned")
 	hspd += on_dir * moveSpeed

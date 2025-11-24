@@ -1,6 +1,6 @@
 global.PlayerMaxHP = 100
 global.PlayerHP = global.PlayerMaxHP
-global.PlayerDamage = 20
+global.PlayerDamage = 50
 size = 1
 attackDelay = 30
 tranceDelay = 0 // 무아지경
