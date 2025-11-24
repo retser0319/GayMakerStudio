@@ -68,8 +68,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Boss_Stage_1","path":"rooms/Boss_Stage_1/Boss_Stage_1.yy",},},
     {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
+    {"roomId":{"name":"Boss_Stage_1","path":"rooms/Boss_Stage_1/Boss_Stage_1.yy",},},
     {"roomId":{"name":"Boss_Stage_2","path":"rooms/Boss_Stage_2/Boss_Stage_2.yy",},},
     {"roomId":{"name":"Clear_Screen","path":"rooms/Clear_Screen/Clear_Screen.yy",},},
     {"roomId":{"name":"Fail_Screen","path":"rooms/Fail_Screen/Fail_Screen.yy",},},
