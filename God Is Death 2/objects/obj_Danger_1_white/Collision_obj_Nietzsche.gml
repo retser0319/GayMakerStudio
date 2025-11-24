@@ -1,0 +1,1 @@
+//if(image_alpha != 0) obj_Nietzsche.HP --

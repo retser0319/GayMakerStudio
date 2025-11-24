@@ -1,0 +1,3 @@
+damage = false
+alarm[0] = 30
+alarm[1] = 60
