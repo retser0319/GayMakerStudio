@@ -1,5 +1,6 @@
 player = instance_nearest(x,y,obj_Nietzsche)
-//image_angle = point_direction(x,y,player.x,player.y) - 90
+
+image_alpha = 0.2
 alarm[0] = 60
-alarm_count = 5
+alarm_count = 0
 instance_triger = true

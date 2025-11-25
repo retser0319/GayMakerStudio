@@ -1,6 +1,6 @@
-global.BossHP_2 = 1000
+global.BossHP = 1000
 
-global.BossPaze_2 = 1
+global.BossPaze = 1
 
 randomize()
 rands = 1

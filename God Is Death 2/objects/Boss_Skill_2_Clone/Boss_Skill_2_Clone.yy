@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Global_Manager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Boss_Skill_2_Clone",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Global_Manager",
+  "name":"Boss_Skill_2_Clone",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Boss_2",
+    "path":"folders/Object/Boss_2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Boss_2_1_Clone",
+    "path":"sprites/spr_Boss_2_1_Clone/spr_Boss_2_1_Clone.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
