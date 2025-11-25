@@ -38,7 +38,12 @@
     {"id":{"name":"LightingBall","path":"objects/LightingBall/LightingBall.yy",},},
     {"id":{"name":"obj_Attack_Range","path":"objects/obj_Attack_Range/obj_Attack_Range.yy",},},
     {"id":{"name":"obj_Boss_1","path":"objects/obj_Boss_1/obj_Boss_1.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"obj_Boss_2","path":"objects/obj_Boss_2/obj_Boss_2.yy",},},
+=======
+    {"id":{"name":"obj_Card","path":"objects/obj_Card/obj_Card.yy",},},
+    {"id":{"name":"obj_Global_Manager","path":"objects/obj_Global_Manager/obj_Global_Manager.yy",},},
+>>>>>>> cbfb7aaada6795c43b49f1e2a2d1a7c01d6f3136
     {"id":{"name":"obj_Go_To_Boss1","path":"objects/obj_Go_To_Boss1/obj_Go_To_Boss1.yy",},},
     {"id":{"name":"obj_Nietzsche","path":"objects/obj_Nietzsche/obj_Nietzsche.yy",},},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
@@ -50,14 +55,21 @@
     {"id":{"name":"Clear_Screen","path":"rooms/Clear_Screen/Clear_Screen.yy",},},
     {"id":{"name":"Fail_Screen","path":"rooms/Fail_Screen/Fail_Screen.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
+    {"id":{"name":"Show_Card","path":"scripts/Show_Card/Show_Card.yy",},},
+    {"id":{"name":"Boss_Bar","path":"sprites/Boss_Bar/Boss_Bar.yy",},},
+    {"id":{"name":"Boss_HP","path":"sprites/Boss_HP/Boss_HP.yy",},},
     {"id":{"name":"BOSS","path":"sprites/BOSS/BOSS.yy",},},
     {"id":{"name":"cave_platformall1","path":"sprites/cave_platformall1/cave_platformall1.yy",},},
     {"id":{"name":"charactorimg1","path":"sprites/charactorimg1/charactorimg1.yy",},},
     {"id":{"name":"lightningball","path":"sprites/lightningball/lightningball.yy",},},
     {"id":{"name":"mouth","path":"sprites/mouth/mouth.yy",},},
     {"id":{"name":"needle","path":"sprites/needle/needle.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_Boss_2_1_attack","path":"sprites/spr_Boss_2_1_attack/spr_Boss_2_1_attack.yy",},},
     {"id":{"name":"spr_Boss_2_1","path":"sprites/spr_Boss_2_1/spr_Boss_2_1.yy",},},
+=======
+    {"id":{"name":"spr_Card","path":"sprites/spr_Card/spr_Card.yy",},},
+>>>>>>> cbfb7aaada6795c43b49f1e2a2d1a7c01d6f3136
     {"id":{"name":"spr_ch_attack_1","path":"sprites/spr_ch_attack_1/spr_ch_attack_1.yy",},},
     {"id":{"name":"spr_ch_attack_2","path":"sprites/spr_ch_attack_2/spr_ch_attack_2.yy",},},
     {"id":{"name":"spr_ch_attack_3","path":"sprites/spr_ch_attack_3/spr_ch_attack_3.yy",},},
@@ -74,9 +86,15 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+<<<<<<< HEAD
     {"roomId":{"name":"Boss_Stage_2","path":"rooms/Boss_Stage_2/Boss_Stage_2.yy",},},
     {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"roomId":{"name":"Boss_Stage_1","path":"rooms/Boss_Stage_1/Boss_Stage_1.yy",},},
+=======
+    {"roomId":{"name":"Boss_Stage_1","path":"rooms/Boss_Stage_1/Boss_Stage_1.yy",},},
+    {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
+    {"roomId":{"name":"Boss_Stage_2","path":"rooms/Boss_Stage_2/Boss_Stage_2.yy",},},
+>>>>>>> cbfb7aaada6795c43b49f1e2a2d1a7c01d6f3136
     {"roomId":{"name":"Clear_Screen","path":"rooms/Clear_Screen/Clear_Screen.yy",},},
     {"roomId":{"name":"Fail_Screen","path":"rooms/Fail_Screen/Fail_Screen.yy",},},
   ],

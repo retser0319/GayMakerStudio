@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_UI_Manager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_Card",
+  "eventList":[],
   "managed":true,
-  "name":"obj_UI_Manager",
+  "name":"obj_Card",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -31,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Card",
+    "path":"sprites/spr_Card/spr_Card.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
