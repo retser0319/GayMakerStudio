@@ -1,0 +1,1 @@
+//if(damage) player hp --
