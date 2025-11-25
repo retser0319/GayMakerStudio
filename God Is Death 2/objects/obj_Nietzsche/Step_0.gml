@@ -4,6 +4,8 @@ if (keyboard_check(ord("P")))
 var on_ground = place_meeting(x, y+1, obj_solid)
 var on_dir = keyboard_check(vk_right) - keyboard_check(vk_left)
 
+if (global.PlayerEnergy < 100) global.PlayerEnergy += 0.25
+
 if (lastHP > global.PlayerHP) {
 	lastHP = global.PlayerHP
 	unDamage = true
@@ -45,8 +47,9 @@ if (status != "jump" and status != "attack" and status != "dash" and status != "
 	}
 }
 
-if (keyboard_check_pressed(ord("Z")) and status != "attack" and status != "stunned")
+if (keyboard_check_pressed(ord("Z")) and global.PlayerEnergy >= 40 and status != "attack" and status != "stunned")
 {
+	global.PlayerEnergy -= 40
 	status = "dash"
 	hspd = image_xscale * 30 * moveSpeed
 	alarm[1] = 5
@@ -87,14 +90,8 @@ if (keyboard_check(ord("X")) and status != "attack" and status != "dash" and sta
 		status = "attack"
 		image_index = 0
 		image_speed = 30 / (attackDelay - tranceDelay)
-		if (attackNum != 3) {
-			alarm[1] = (attackDelay - tranceDelay)
-			alarm[2] = ((attackDelay - tranceDelay) / 6) + 1
-		}
-		else {
-			alarm[1] = (attackDelay - tranceDelay) * 1.5
-			alarm[2] = ((attackDelay - tranceDelay) / 6) + 1
-		}
+		alarm[1] = (attackDelay - tranceDelay)
+		alarm[2] = ((attackDelay - tranceDelay) / 6) + 1
 	}
 }
 
