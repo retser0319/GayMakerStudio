@@ -94,7 +94,8 @@ if (keyboard_check(ord("X")) and status != "attack" and status != "dash" and sta
 
 if (place_meeting(x+hspd, y-1, obj_solid))
 {
-	if (y < instance_place(x+hspd, y-1, obj_solid).y) {
+	var wall = instance_place(x+hspd, y-1, obj_solid)
+	if (y < wall.y) {
 		status = "wall"
 		current_jump_wall = instance_place(x+hspd, y-1, obj_solid)
 	}

@@ -1,0 +1,1 @@
+if (global.BossHP <= 0) instance_destroy(self)
