@@ -1,2 +1,1 @@
-angle += angle_speed;
-y = base_y + sin(angle) * move_range;
+if (global.BossHP <= 0) instance_destroy(self)

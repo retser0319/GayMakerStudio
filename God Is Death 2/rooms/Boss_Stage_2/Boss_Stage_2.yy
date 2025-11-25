@@ -23,8 +23,8 @@
   ],
   "name":"Boss_Stage_2",
   "parent":{
-    "name":"God Is Death 2",
-    "path":"God Is Death 2.yyp",
+    "name":"Room",
+    "path":"folders/Room.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

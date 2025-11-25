@@ -1,6 +1,3 @@
-if (keyboard_check(ord("P")))
-	game_end()
-	
 var on_ground = place_meeting(x, y+1, obj_solid)
 var on_dir = keyboard_check(vk_right) - keyboard_check(vk_left)
 

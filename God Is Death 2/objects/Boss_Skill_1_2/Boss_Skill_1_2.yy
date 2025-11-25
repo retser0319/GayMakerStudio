@@ -9,8 +9,8 @@
   "name":"Boss_Skill_1_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Boss_1",
+    "path":"folders/Object/Boss_1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
