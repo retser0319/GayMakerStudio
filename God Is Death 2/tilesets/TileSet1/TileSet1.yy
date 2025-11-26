@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"God Is Death 2",
-    "path":"God Is Death 2.yyp",
+    "name":"TileSet",
+    "path":"folders/TileSet.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

@@ -1,4 +1,4 @@
-var skill_num = 1//choose(2,5)
+var skill_num = 1//choose(1,2,5)
 
 if (global.BossHP < 500 and global.BossPaze == 1) 
 {

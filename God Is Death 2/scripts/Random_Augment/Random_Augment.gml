@@ -1,0 +1,22 @@
+function Random_Augment(){
+	for (var i = 0; i < 3; i++) 
+	{
+		choose(
+			"Jump King", // 점프킹
+			"Trickster", // 재간둥이
+			"Acrobat", // 곡예사
+			"Bladestorm", // 칼날바람
+			"Lightfruit", // 빛빛열매
+			"Opportunity", // 기회
+			"Matryoshka", // 마트료시카
+			"Tiny Giant", // 꼬꼬마 거인
+			"Bloodlust", // 피바라기
+			"Shock Bomb", // 충격폭탄
+			"Momentum", // 가속도
+			"Shuriken", // 표창
+			"Greatsword", // 대검
+			"Trance", // 무아지경
+		)
+		global.Card[i] = augment
+	}
+}

@@ -1,6 +1,6 @@
 global.PlayerMaxHP = 100
 global.PlayerHP = global.PlayerMaxHP
-global.PlayerDamage = 500
+global.PlayerDamage = 200
 global.PlayerEnergy = 100
 size = 1
 attackDelay = 30

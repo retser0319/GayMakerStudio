@@ -11,7 +11,7 @@ if (lastHP > global.PlayerHP) {
 }
 if (global.PlayerHP <= 0) game_restart()
 
-if (status != "attack" and status != "stunned")
+if (status != "attack")
 	hspd += on_dir * moveSpeed
 	
 if (status != "dash" and status != "wall" and status != "idle")

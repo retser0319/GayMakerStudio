@@ -1,3 +1,2 @@
-image_speed = 0
-image_alpha = 0
-alarm[0] = 180
+image_xscale = 0.3
+image_yscale = 0.3
