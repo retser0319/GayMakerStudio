@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Get_Augment_Text_Desc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Get_Augment_Text_Desc",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
