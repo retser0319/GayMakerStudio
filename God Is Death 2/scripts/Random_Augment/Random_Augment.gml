@@ -1,7 +1,7 @@
 function Random_Augment(){
 	for (var i = 0; i < 3; i++) 
 	{
-		choose(
+		var augment = choose(
 			"Jump King", // 점프킹
 			"Trickster", // 재간둥이
 			"Acrobat", // 곡예사

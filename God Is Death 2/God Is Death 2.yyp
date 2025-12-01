@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"God Is Death 2",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -29,7 +29,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"God Is Death 2",
   "resources":[
@@ -39,6 +39,7 @@
     {"id":{"name":"Boss_Skill_1_3","path":"objects/Boss_Skill_1_3/Boss_Skill_1_3.yy",},},
     {"id":{"name":"Boss_Skill_1_4","path":"objects/Boss_Skill_1_4/Boss_Skill_1_4.yy",},},
     {"id":{"name":"Boss_Skill_1_5","path":"objects/Boss_Skill_1_5/Boss_Skill_1_5.yy",},},
+    {"id":{"name":"Boss_Skill_2_5","path":"objects/Boss_Skill_2_5/Boss_Skill_2_5.yy",},},
     {"id":{"name":"Boss_SKill_2_Attack","path":"objects/Boss_SKill_2_Attack/Boss_SKill_2_Attack.yy",},},
     {"id":{"name":"Boss_Skill_2_Clone","path":"objects/Boss_Skill_2_Clone/Boss_Skill_2_Clone.yy",},},
     {"id":{"name":"Boss_SKill_2_Range","path":"objects/Boss_SKill_2_Range/Boss_SKill_2_Range.yy",},},
