@@ -9,3 +9,7 @@ global.PlayerEnergy = 1
 global.Card[0] = ""
 global.Card[1] = ""
 global.Card[2] = ""
+
+global.Augment[0] = ""
+global.Augment[1] = ""
+global.Augment[2] = ""

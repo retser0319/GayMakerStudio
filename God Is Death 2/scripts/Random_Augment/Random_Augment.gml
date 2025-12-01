@@ -1,7 +1,9 @@
 function Random_Augment(){
 	for (var i = 0; i < 3; i++) 
 	{
-		var augment = choose(
+		var augment
+		repeat(50) {
+			augment = choose(
 			"Jump King", // 점프킹
 			"Trickster", // 재간둥이
 			"Acrobat", // 곡예사
@@ -16,7 +18,12 @@ function Random_Augment(){
 			"Shuriken", // 표창
 			"Greatsword", // 대검
 			"Trance", // 무아지경
-		)
+			)
+			for (var j = 0; j < 3; j++) {
+				if (global.Augment[j] == augment) continue
+			}
+			break
+		}
 		global.Card[i] = augment
 	}
 }
