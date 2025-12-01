@@ -1,4 +1,4 @@
-var skill_num = choose(1,2,5)
+var skill_num = choose(0,1,2,5)
 
 if (global.BossHP < 500 and global.BossPaze == 1) 
 {
@@ -6,7 +6,13 @@ if (global.BossHP < 500 and global.BossPaze == 1)
 	global.BossPaze = 2
 	alarm[0] = 240
 }
-
+if (skill_num == 0) 
+{
+	if (pos == "left" or pos == "right") pos = "center"
+	else if (pos == "center") pos = choose("left","right")
+	spd = 15
+	alarm[5] = 30
+}
 if (skill_num == 1) 
 {
 	instance_create_layer(x,2040, "Effect", Boss_Skill_1_1)

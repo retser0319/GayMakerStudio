@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"needle",
-    "path":"sprites/needle/needle.yy",
+    "name":"spr_needle",
+    "path":"sprites/spr_needle/spr_needle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

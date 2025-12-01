@@ -4,7 +4,7 @@ var on_dir = keyboard_check(vk_right) - keyboard_check(vk_left)
 if (global.PlayerEnergy < 100) global.PlayerEnergy += 0.25
 
 if (lastHP > global.PlayerHP) {
-	lastHP = global.PlayerHP
+	lastHP = global.PlayerHP	
 	unDamage = true
 	blend = c_red
 	alarm[0] = 5
@@ -95,7 +95,7 @@ if (keyboard_check(ord("X")) and status != "attack" and status != "dash" and sta
 if (place_meeting(x+hspd, y-1, obj_solid))
 {
 	var wall = instance_place(x+hspd, y-1, obj_solid)
-	if (y < wall.y) {
+	if (y < wall.y + 32 * wall.image_yscale) { 
 		status = "wall"
 		current_jump_wall = instance_place(x+hspd, y-1, obj_solid)
 	}

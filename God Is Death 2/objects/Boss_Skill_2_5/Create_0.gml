@@ -3,7 +3,6 @@ mode = "spawn"
 
 direction = 90
 speed = random_range(35, 45)
-image_angle = 90
 
 
 

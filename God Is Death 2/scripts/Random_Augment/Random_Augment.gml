@@ -1,8 +1,8 @@
 function Random_Augment(){
+	var augment
 	for (var i = 0; i < 3; i++) 
 	{
-		var augment
-		repeat(50) {
+		repeat(1000) {
 			augment = choose(
 			"Jump King", // 점프킹
 			"Trickster", // 재간둥이
@@ -19,11 +19,13 @@ function Random_Augment(){
 			"Greatsword", // 대검
 			"Trance", // 무아지경
 			)
+			var dup = false
 			for (var j = 0; j < 3; j++) {
-				if (global.Augment[j] == augment) continue
+				if (global.Augment[j] == augment or global.Card[j] == augment) dup = true
 			}
-			break
+			if (!dup) break
 		}
+		show_debug_message(augment)
 		global.Card[i] = augment
 	}
 }

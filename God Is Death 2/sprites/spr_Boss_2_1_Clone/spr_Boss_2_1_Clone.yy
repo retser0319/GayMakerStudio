@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_Boss_2_1_Clone",
   "bboxMode":0,
   "bbox_bottom":9999,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0ab6ba7a-bc87-413d-99eb-47feb43e7c9f","name":"0ab6ba7a-bc87-413d-99eb-47feb43e7c9f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ab6ba7a-bc87-413d-99eb-47feb43e7c9f","name":"0ab6ba7a-bc87-413d-99eb-47feb43e7c9f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

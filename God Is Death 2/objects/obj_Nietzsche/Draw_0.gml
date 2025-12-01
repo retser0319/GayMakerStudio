@@ -13,6 +13,6 @@ else if (status == "attack" and attackNum == 2) {
 else if (status == "attack" and attackNum == 3) {
 	draw_sprite_ext(spr_ch_attack_3, image_index, x, y, image_xscale, image_yscale, image_angle, blend, 1); }
 else if (status == "attack" and attackNum == 4) {
-	draw_sprite_ext(spr_ch_attack_1, image_index, x, y, image_xscale, image_yscale, image_angle, blend, 1); }
+	draw_sprite_ext(spr_ch_fallAttack, image_index, x, y, image_xscale, image_yscale, image_angle, blend, 1); }
 else if (status == "dash")
 	draw_sprite_ext(spr_ch_run, 0, x, y, image_xscale, image_yscale, image_angle, blend, 1);

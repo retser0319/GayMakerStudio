@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"tuell1",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f6b4218f-cb6d-4ca3-8b51-967529dd18c9","name":"f6b4218f-cb6d-4ca3-8b51-967529dd18c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6b4218f-cb6d-4ca3-8b51-967529dd18c9","name":"f6b4218f-cb6d-4ca3-8b51-967529dd18c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
