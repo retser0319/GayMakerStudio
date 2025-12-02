@@ -8,7 +8,7 @@ if (lastHP > global.PlayerHP) {
 	if (shield and augment_opportunity) {
 		global.PlayerHP = lastHP
 		shield = false
-		alarm[3] = 300
+		alarm[3] = 120
 	}
 	lastHP = global.PlayerHP	
 	unDamage = true

@@ -40,6 +40,7 @@
   "name":"God Is Death 2",
   "resources":[
     {"id":{"name":"TestFonts","path":"fonts/TestFonts/TestFonts.yy",},},
+    {"id":{"name":"Back","path":"objects/Back/Back.yy",},},
     {"id":{"name":"Boss_Skill_1_1","path":"objects/Boss_Skill_1_1/Boss_Skill_1_1.yy",},},
     {"id":{"name":"Boss_Skill_1_2","path":"objects/Boss_Skill_1_2/Boss_Skill_1_2.yy",},},
     {"id":{"name":"Boss_Skill_1_3","path":"objects/Boss_Skill_1_3/Boss_Skill_1_3.yy",},},

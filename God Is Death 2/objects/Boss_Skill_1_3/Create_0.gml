@@ -1,1 +1,2 @@
-alarm[0] = 15
+can_attack =true
+alarm[0] = 90
