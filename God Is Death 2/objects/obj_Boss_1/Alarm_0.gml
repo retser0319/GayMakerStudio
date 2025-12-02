@@ -1,11 +1,5 @@
 var skill_num = choose(0,1,2,5)
 
-if (global.BossHP < 500 and global.BossPaze == 1) 
-{
-	image_blend = c_red
-	global.BossPaze = 2
-	alarm[0] = 240
-}
 if (skill_num == 0) 
 {
 	if (pos == "left" or pos == "right") pos = "center"

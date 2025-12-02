@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite26",
-    "path":"sprites/Sprite26/Sprite26.yy",
+    "name":"Circle",
+    "path":"sprites/Circle/Circle.yy",
   },
   "spriteMaskId":null,
   "visible":false,
