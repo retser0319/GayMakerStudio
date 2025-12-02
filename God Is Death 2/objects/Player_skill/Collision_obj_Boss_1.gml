@@ -1,3 +1,4 @@
+if (!can_attack) return
 var tag = instance_create_layer(other.x,other.y,"Effect",obj_Tag)
 var player = instance_nearest(x,y, obj_Nietzsche)
 var damage = global.PlayerDamage
@@ -13,4 +14,4 @@ if (player.augment_bloodlust) {
 	player.lastHP = global.PlayerHP
 }
 
-instance_destroy(self)
+can_attack = false

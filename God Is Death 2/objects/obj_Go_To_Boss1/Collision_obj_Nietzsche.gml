@@ -1,1 +1,1 @@
-room_goto(Boss_Stage_1)
+room_goto(Card_Room)

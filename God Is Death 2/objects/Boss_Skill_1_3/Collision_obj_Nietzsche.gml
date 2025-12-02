@@ -1,4 +1,4 @@
-/*if (other.x > 0)
+if (other.x > self.x)
 	other.hspd = 100
 else
 	other.hspd = -100

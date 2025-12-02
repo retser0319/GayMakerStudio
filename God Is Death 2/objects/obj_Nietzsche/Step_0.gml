@@ -2,14 +2,25 @@ var on_ground = place_meeting(x, y+1, obj_solid)
 var on_dir = keyboard_check(vk_right) - keyboard_check(vk_left)
 
 if (global.PlayerEnergy < 100) global.PlayerEnergy += 0.25
-
+if (global.PlayerHP > global.PlayerMaxHP) global.PlayerHP = global.PlayerMaxHP
 if (lastHP > global.PlayerHP) {
+	if (augment_shock_bomb) instance_create_layer(x,y,"Instances",Player_skill)
+	if (shield and augment_opportunity) {
+		global.PlayerHP = lastHP
+		shield = false
+		alarm[3] = 300
+	}
 	lastHP = global.PlayerHP	
 	unDamage = true
 	blend = c_red
 	alarm[0] = 5
 }
-if (global.PlayerHP <= 0) game_restart()
+if (global.PlayerHP <= 0) {
+	if (augment_matryoshka and life > 0) {
+		global.PlayerHP = life * 25
+	}
+	game_restart()
+}
 
 if (status != "attack")
 	hspd += on_dir * moveSpeed
@@ -44,9 +55,11 @@ if (status != "jump" and status != "attack" and status != "dash" and status != "
 	}
 }
 
-if (keyboard_check_pressed(ord("Z")) and global.PlayerEnergy >= 40 and status != "attack" and status != "stunned")
-{
-	global.PlayerEnergy -= 40
+if (keyboard_check_pressed(ord("Z")) and global.PlayerEnergy >= dash_req and status != "attack" and status != "stunned")
+{	
+	dashX = x
+	if (augment_Acrobat) can_fly_attack = true
+	global.PlayerEnergy -= dash_req
 	status = "dash"
 	hspd = image_xscale * 30 * moveSpeed
 	alarm[1] = 5
@@ -54,6 +67,7 @@ if (keyboard_check_pressed(ord("Z")) and global.PlayerEnergy >= 40 and status !=
 
 if (keyboard_check_pressed(ord("C")) and status != "attack" and status != "stunned")
 {
+	if (augment_Acrobat) can_fly_attack = true
 	if (current_jump_wall != last_jump_wall)
 	{
 		status = "jump"
@@ -75,7 +89,7 @@ if (keyboard_check(ord("X")) and status != "attack" and status != "dash" and sta
 		status = "attack"
 		image_index = 0
 		image_speed = 30 / attackDelay
-		vspd = -10
+		if (!augment_jump_king) vspd = -10
 		attackNum = 4
 		can_fly_attack = false
 		alarm[1] = attackDelay / 2 + 1

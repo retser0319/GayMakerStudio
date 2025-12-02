@@ -1,6 +1,6 @@
 global.PlayerMaxHP = 100
 global.PlayerHP = global.PlayerMaxHP
-global.PlayerDamage = 200
+global.PlayerDamage = 20
 global.PlayerEnergy = 100
 size = 1
 attackDelay = 30
@@ -10,6 +10,7 @@ jump_max = 2
 
 tranceDelay = 0 // 무아지경
 
+dash_req = 40
 hspd = 0
 vspd = 0
 vspd_max = 40    // 최대 낙하 속도
@@ -36,7 +37,7 @@ augment_bloodlust = false
 augment_jump_king = false
 augment_trickster = false //재간둥이
 augment_Acrobat = false // 곡예사
-augment_baldestorm = false //칼날바람
+augment_bladestorm = false //칼날바람
 augment_opportunity = false // 기회
 augment_matryoshka = false // 마트료시카
 augment_tiny_giant = false // 꼬꼬마 거인
@@ -45,6 +46,9 @@ augment_momentum = false // 가속도
 augment_shuriken = false // 표창
 augment_greatsword = false // 대검
 
+dashX = x
+shield = false
+life = 0
 
 if (room != Main)
 	Set_Player_Augment(self)
