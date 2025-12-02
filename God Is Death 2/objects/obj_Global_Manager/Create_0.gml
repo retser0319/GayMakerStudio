@@ -1,3 +1,4 @@
+global.Round = 0
 global.BossHP = 1
 global.BossPaze = 1
 
@@ -10,6 +11,6 @@ global.Card[0] = ""
 global.Card[1] = ""
 global.Card[2] = ""
 
-global.Augment[0] = ""
-global.Augment[1] = ""
-global.Augment[2] = ""
+global.Augment[0] = "Shock Bomb"
+global.Augment[1] = "Trance"
+global.Augment[2] = "Tiny Giant"

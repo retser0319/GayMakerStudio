@@ -14,5 +14,8 @@ else card[2].image_index = 0
 if (keyboard_check_pressed(ord("X"))) 
 {
 	Add_Augment(index)
-	room_goto(Boss_Stage_2)
+	global.Round += 1
+	if (global.Round == 1) room_goto(Boss_Stage_1)
+	if (global.Round == 2) room_goto(Boss_Stage_2)
+	if (global.Round == 3) room_goto(Boss_Stage_3)
 }

@@ -10,5 +10,5 @@ if (global.BossHP < 500 and global.BossPaze == 1)
 	with(Boss_Skill_1_4) instance_destroy(self)
 	with(Boss_Skill_1_5) instance_destroy(self)
 	
-	alarm[0] = 240
+	alarm[0] = 60
 }
