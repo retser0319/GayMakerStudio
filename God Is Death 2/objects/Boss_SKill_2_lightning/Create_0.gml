@@ -1,6 +1,5 @@
 player = instance_nearest(x,y,obj_Nietzsche)
-
-image_alpha = 0.7
-alarm[0] = 60
+attack = false
+alarm[0] = 120
 alarm_count = 0
 instance_triger = true

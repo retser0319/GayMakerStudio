@@ -1,5 +1,5 @@
 /// @description 
-var pattern = 5 // choose(1)
+var pattern = choose(1,2,5) // choose(1)
 if(pattern == 1){
 	var type = choose("x","y")
 	var rand = random_range(0.0, 1.0)
@@ -11,8 +11,7 @@ if(pattern == 1){
 	alarm[10] = 120
 }
 else if(pattern == 2){
-	//instance_create_layer(x, 320,"Instances",obj_Danger)
-	//alarm[10] = 120
+	instance_create_layer(x, 320,"RedGround",Boss_SKill_2_lightning)
 }
 else if(pattern == 3){
 	//instance_create_layer(obj_Nietzsche.x, obj_Nietzsche.y,"Instances",obj_pattern_3)
