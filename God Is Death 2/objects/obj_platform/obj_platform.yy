@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_platform",
-    "path":"sprites/spr_platform/spr_platform.yy",
+    "name":"tile_139",
+    "path":"sprites/tile_139/tile_139.yy",
   },
   "spriteMaskId":null,
   "visible":true,

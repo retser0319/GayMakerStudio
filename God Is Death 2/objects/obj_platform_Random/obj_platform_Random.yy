@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"tile_136",
-    "path":"sprites/tile_136/tile_136.yy",
+    "name":"tile_139",
+    "path":"sprites/tile_139/tile_139.yy",
   },
   "spriteMaskId":null,
   "visible":true,

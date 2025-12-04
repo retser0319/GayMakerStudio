@@ -4,7 +4,7 @@ var on_dir = keyboard_check(vk_right) - keyboard_check(vk_left)
 if (global.PlayerEnergy < 100) global.PlayerEnergy += 0.25
 if (global.PlayerHP > global.PlayerMaxHP) global.PlayerHP = global.PlayerMaxHP
 if (lastHP > global.PlayerHP) {
-	if (augment_shock_bomb) instance_create_layer(x,y,"Instances",Player_skill)
+	if (augment_shock_bomb) instance_create_layer(x,y,"Effect",Player_skill)
 	if (shield and augment_opportunity) {
 		global.PlayerHP = lastHP
 		shield = false
