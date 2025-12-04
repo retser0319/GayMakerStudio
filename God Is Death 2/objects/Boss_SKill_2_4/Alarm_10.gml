@@ -1,5 +1,6 @@
 var dist = 1000; // 스킬 간격, 스프라이트 길이에 맞춰 조절해줘
 
+if(global.Boss2Paze == 1){
 // 오른쪽 4개
 for (var i = 0; i < 4; i++)
 {
@@ -14,5 +15,6 @@ for (var j = 0; j < 4; j++)
     sk2.image_xscale = -1; // 왼쪽
 }
 
+}
 obj_Boss_2.alarm[10] = 120;
 instance_destroy(self);
