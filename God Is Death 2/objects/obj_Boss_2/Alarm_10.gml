@@ -1,5 +1,5 @@
 /// @description 
-var pattern = choose(1,2,5) // choose(1)
+var pattern = choose(1,2,3,5)
 if(pattern == 1){
 	var type = choose("x","y")
 	var rand = random_range(0.0, 1.0)
@@ -11,10 +11,14 @@ if(pattern == 1){
 	alarm[10] = 120
 }
 else if(pattern == 2){
-	instance_create_layer(x, 320,"RedGround",Boss_SKill_2_lightning)
+	if(global.Boss2Paze = 2) {
+		lightning_count = 0;
+        alarm[1] = 1; 
+		}
+	else instance_create_layer(x, 320,"RedGround",Boss_SKill_2_lightning)
 }
 else if(pattern == 3){
-	//instance_create_layer(obj_Nietzsche.x, obj_Nietzsche.y,"Instances",obj_pattern_3)
+	instance_create_layer(obj_Nietzsche.x, obj_Nietzsche.y,"Effect",Boss_Skill_2_3)
 	//alarm[10] = 120
 }
 
@@ -23,10 +27,10 @@ else if(pattern == 5){
 target = instance_nearest(x, y, obj_Nietzsche);
 
 // 타겟이 존재할 때만 실행
-if (instance_exists(target)) {
+if (instance_exists(target) and global.Boss2Paze == 2) {
     
     // ★ 핵심 수정: 생성할 총 개수를 (페이즈 * 6)으로 설정
-    var total_spawn = global.BossPaze * 6;
+    var total_spawn = global.Boss2Paze * 6;
     
     for (var i = 0; i < total_spawn; i++) 
     {
@@ -63,7 +67,7 @@ if (instance_exists(target)) {
             // 플레이어 방향으로 날아가도록 설정
             direction = point_direction(x, y, other.target.x, other.target.y);
             image_angle = direction; // 머리 방향 맞춤
-            speed = 5; // 날아가는 속도
+            speed = 7; // 날아가는 속도
             
             // (팁) 만약 너무 정확하게 날아오는 게 싫다면 아래 줄 주석을 해제하세요 (약간의 오차 추가)
             // direction += random_range(-15, 15);
