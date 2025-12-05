@@ -3,6 +3,6 @@ if (image_index > 7) {
 	{
 		global.PlayerHP -= 20
 	}
-	obj_Boss_2.alarm[10] = 120
+	obj_Boss_2.alarm[10] = global.attack_timer
 	instance_destroy(self)
 }

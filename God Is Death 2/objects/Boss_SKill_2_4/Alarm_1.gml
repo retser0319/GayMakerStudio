@@ -1,2 +1,2 @@
 attack_count = true
-alarm[1] = 10
+alarm[1] = 30

@@ -1,5 +1,11 @@
 /// @description 
-var pattern = choose(1,2,3,5)
+global.attack_timer = 120
+if(global.Boss2Paze == 2){
+	var pattern = choose(1,2,3,5)
+	global.attack_timer = 60
+}
+else var pattern = choose(1,2,3)
+
 if(pattern == 1){
 	var type = choose("x","y")
 	var rand = random_range(0.0, 1.0)
@@ -8,10 +14,10 @@ if(pattern == 1){
 		instance_create_layer(rand * room_width, 0,"Effect", Boss_SKill_2_Range)
 	if (type == "y")
 		instance_create_layer(0, rand * (room_height / 2),"Effect", Boss_SKill_2_Range)
-	alarm[10] = 120
+	alarm[10] = global.attack_timer
 }
 else if(pattern == 2){
-	if(global.Boss2Paze = 2) {
+	if(global.Boss2Paze == 2) {
 		lightning_count = 0;
         alarm[1] = 1; 
 		}
@@ -74,5 +80,5 @@ if (instance_exists(target) and global.Boss2Paze == 2) {
         }
     }
 }
-alarm[10] = 240
+alarm[10] = global.attack_timer
 }

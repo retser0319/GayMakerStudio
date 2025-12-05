@@ -13,3 +13,5 @@ y = anchorY + sin(floatTimer) * floatRange;
 if(global.BossHP <= 400){
 	global.Boss2Paze = 2
 }
+
+if (global.BossHP <= 0) instance_destroy(self)
