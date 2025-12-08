@@ -5,11 +5,9 @@ var damage = global.PlayerDamage
 if (player.augment_jump_king and player.vspd > 0) damage = damage + damage * (player.vspd / 15)
 if (player.augment_momentum) damage = damage + (damage * (player.moveSpeed - 1))
 
+tag.damage = damage
+global.stone -= damage
 
-if(global.BossHP >= 500){
-	tag.damage = damage
-	global.BossHP -= damage
-}
 if (player.augment_bloodlust) {
 	global.PlayerHP += 2
 	player.lastHP = global.PlayerHP
