@@ -1,0 +1,1 @@
+global.BossHP -= global.stone
