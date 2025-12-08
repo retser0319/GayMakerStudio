@@ -1,3 +1,4 @@
+if(global.BossHP <= 500){
 randomize()
 rd = random_range(0,2)
 
@@ -10,3 +11,5 @@ else if(rb == 1){
 
 alarm[1] = 500
 alarm[0] = 600
+}
+else alarm[0] = 10
