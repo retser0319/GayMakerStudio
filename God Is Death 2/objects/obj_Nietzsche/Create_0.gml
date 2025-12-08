@@ -1,4 +1,4 @@
-global.PlayerMaxHP = 100
+global.PlayerMaxHP = 10000
 global.PlayerHP = global.PlayerMaxHP
 global.PlayerDamage = 200
 global.PlayerEnergy = 100

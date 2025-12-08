@@ -1,11 +1,6 @@
-var skill_num = choose(1,2,5)
+var skill_num = choose(1,2)
 
-if (global.BossHP < 500 and global.BossPaze == 1) 
-{
-	image_blend = c_red
-	global.BossPaze = 2
-	alarm[0] = 480
-}
+
 
 if (skill_num == 1) 
 {
@@ -19,6 +14,7 @@ if (skill_num == 2)
 	instance_create_layer(X,Y, "Effect", Boss_Skill_3_2_Circle)
 	alarm[0] = 480
 }
+/*
 if (skill_num == 5) 
 {
 	target = instance_nearest(x,y, obj_Nietzsche)

@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BOSS",
-    "path":"sprites/BOSS/BOSS.yy",
+    "name":"spr_BOSS2",
+    "path":"sprites/spr_BOSS2/spr_BOSS2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
