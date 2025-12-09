@@ -8,4 +8,4 @@ draw_set_font(TestFonts)
 draw_text(x,y-164, Get_Augment_Text_Name(num))
 
 draw_set_font(TestFonts_small)
-draw_text(x,y-82, Get_Augment_Text_Desc(num))
+draw_text(x,y+100, Get_Augment_Text_Desc(num))
