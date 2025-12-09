@@ -1,1 +1,0 @@
-room_goto(Boss_Stage_4)
