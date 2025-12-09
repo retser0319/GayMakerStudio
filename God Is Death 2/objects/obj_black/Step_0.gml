@@ -15,3 +15,7 @@ if (_is_moving) {
 	}
 }
 else damages = false
+
+if (instance_exists(Boss_Skill_3_5)) {
+    with (Boss_Skill_3_5) instance_destroy();
+}

@@ -5,7 +5,7 @@
 // is_firing 상태를 한 번 더 체크해 주면 안전
 if (is_firing) {
     // 레이저 생성
-    laser_inst = instance_create_layer(x, y + 500, "Effect", obj_Laser);
+    laser_inst = instance_create_layer(x, y, "Effect", obj_Laser);
 
     // 레이저 사운드 재생
 

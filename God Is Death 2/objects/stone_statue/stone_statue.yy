@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stone_statue",
-    "path":"sprites/spr_stone_statue/spr_stone_statue.yy",
+    "name":"tjrtkd",
+    "path":"sprites/tjrtkd/tjrtkd.yy",
   },
   "spriteMaskId":null,
   "visible":true,

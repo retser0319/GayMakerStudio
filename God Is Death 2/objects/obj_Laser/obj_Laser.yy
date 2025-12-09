@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"fpdlwj",
-    "path":"sprites/fpdlwj/fpdlwj.yy",
+    "name":"Sprite57",
+    "path":"sprites/Sprite57/Sprite57.yy",
   },
   "spriteMaskId":null,
   "visible":true,

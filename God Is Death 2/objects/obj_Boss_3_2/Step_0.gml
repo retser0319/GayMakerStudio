@@ -23,6 +23,7 @@ if (instance_exists(obj_Nietzsche)) {
         
         alarm[4] = game_get_speed(gamespeed_fps) * 0.7;
         audio_play_sound(snd_enerugipa, 1, false);
+		laser_inst = instance_create_layer(x, y-500, "Effect", obj_Laser);
     }
 }
 
