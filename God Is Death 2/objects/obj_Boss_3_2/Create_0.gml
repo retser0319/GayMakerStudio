@@ -5,7 +5,7 @@ global.BossPaze = 2
 Boss4_2_count = 0
 randomize()
 rands = 1
-alarm[10] = 1
+alarm[10] = 1000
 //alarm[5] = 1
 alarm[1] = 30
 
@@ -37,3 +37,5 @@ idle_posV = 0
 base_y = y
 
 global.Darkness = false
+
+ audio_play_sound(snd_boss3, 1, false);

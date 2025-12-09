@@ -18,3 +18,6 @@ floatTimer = 0;
 // 3. 설정 값 (이 값들을 조절하여 느낌을 바꿉니다)
 floatRange = 40;  // 움직임 범위 (픽셀 단위): 위아래로 총 20픽셀씩 움직임
 floatSpeed = 0.05; // 움직임 속도: 값이 클수록 빨리 움직임
+
+
+audio_play_sound(snd_boss2, 1, false);

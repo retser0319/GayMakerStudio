@@ -63,6 +63,8 @@ if (keyboard_check_pressed(ord("Z")) and global.PlayerEnergy >= dash_req and sta
 	status = "dash"
 	hspd = image_xscale * 30 * moveSpeed
 	alarm[1] = 5
+	
+	audio_play_sound(snd_dash, 1, false);
 }
 
 if (keyboard_check_pressed(ord("C")) and status != "attack" and status != "stunned")
@@ -73,12 +75,14 @@ if (keyboard_check_pressed(ord("C")) and status != "attack" and status != "stunn
 		status = "jump"
 		vspd = jump_strength
 		last_jump_wall = current_jump_wall
+		audio_play_sound(snd_jump, 1, false);
 	}
 	else if (jump_count < jump_max)
 	{
 		status = "jump"
 		jump_count += 1
 		vspd = jump_strength	
+		audio_play_sound(snd_jump, 1, false);
 	}
 }
 
@@ -94,6 +98,7 @@ if (keyboard_check(ord("X")) and status != "attack" and status != "dash" and sta
 		can_fly_attack = false
 		alarm[1] = attackDelay / 2 + 1
 		alarm[2] = (attackDelay / 6) + 1
+		audio_play_sound(snd_sward, 1, false);
 	}
 	else if (status != "jump")
 	{
@@ -103,6 +108,7 @@ if (keyboard_check(ord("X")) and status != "attack" and status != "dash" and sta
 		image_speed = 30 / (attackDelay - tranceDelay)
 		alarm[1] = (attackDelay - tranceDelay)
 		alarm[2] = ((attackDelay - tranceDelay) / 6) + 1
+		audio_play_sound(snd_sward, 1, false);
 	}
 }
 

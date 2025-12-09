@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_jump",
+  "%Name":"MP_1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "channelFormat":0,
-  "compression":3,
+  "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.2,
+  "duration":0.5122449,
   "exportDir":"",
-  "name":"snd_jump",
+  "name":"MP_1",
   "parent":{
     "name":"Sound",
     "path":"folders/Sound.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_jump.wav",
-  "volume":0.33,
+  "soundFile":"MP_1.mp3",
+  "volume":1.0,
 }

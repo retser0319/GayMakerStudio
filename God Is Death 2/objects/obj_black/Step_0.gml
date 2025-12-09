@@ -11,8 +11,7 @@ if(blackgound == true){
 var _is_moving = keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_up) || keyboard_check(vk_down);
 
 if (_is_moving) {
-	global.PlayerHP -= 10;      // 체력 10 감소
-	draw_text(x,y,"sadasdkasldksa;dsa")
+	damages = true
 	}
-		
 }
+else damages = false

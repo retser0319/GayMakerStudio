@@ -1,0 +1,1 @@
+audio_play_sound(snd_ending,1,false)

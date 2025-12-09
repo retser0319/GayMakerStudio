@@ -7,3 +7,4 @@ speed = random_range(35, 45)
 
 
 alarm[1] = 60
+

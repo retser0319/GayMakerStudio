@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_jump",
+  "%Name":"MP_Barrel_Exploding",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.2,
+  "duration":6.3751926,
   "exportDir":"",
-  "name":"snd_jump",
+  "name":"MP_Barrel_Exploding",
   "parent":{
     "name":"Sound",
     "path":"folders/Sound.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_jump.wav",
-  "volume":0.33,
+  "soundFile":"MP_Barrel_Exploding.mp3",
+  "volume":1.0,
 }

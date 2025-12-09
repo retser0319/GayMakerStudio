@@ -1,3 +1,4 @@
 global.Darkness = false
 
-obj_Boss_3_2.alarm[10] = 550
+randomize()
+obj_Boss_3_2.alarm[10] = random_range(550,1500)
