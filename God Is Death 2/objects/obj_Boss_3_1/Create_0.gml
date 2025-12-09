@@ -1,4 +1,4 @@
-global.BossHP = 1000
+global.BossHP = 520
 global.BossPaze = 1
 
 skill_1 = 0
