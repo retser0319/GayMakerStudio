@@ -1,21 +1,12 @@
-
-image_alpha += 0.01
-
-if(image_alpha >= 1){
-	blackgound = true
-
-}
-// 1. 움직임 입력 감지 (방향키 중 하나라도 눌렀는가?)
-
-if(blackgound == true){
-var _is_moving = keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_up) || keyboard_check(vk_down);
-
-if (_is_moving) {
-	damages = true
+if (image_alpha >= 1) {
+	if (keyboard_check(vk_left) 
+	or keyboard_check(vk_right) 
+	or keyboard_check(ord("Z"))
+	or keyboard_check(ord("X"))
+	or keyboard_check(ord("C"))) {
+		global.PlayerHP -= 1
 	}
 }
-else damages = false
 
-if (instance_exists(Boss_Skill_3_5)) {
-    with (Boss_Skill_3_5) instance_destroy();
-}
+var boss = instance_find(obj_Boss_4, 0);
+boss.image_index = boss.image_alpha * 4;

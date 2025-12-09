@@ -1,1 +1,2 @@
-global.stone = 0
+damage = 0
+alarm[0] = 600

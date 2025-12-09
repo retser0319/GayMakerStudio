@@ -6,7 +6,7 @@ if (player.augment_jump_king and player.vspd > 0) damage = damage + damage * (pl
 if (player.augment_momentum) damage = damage + (damage * (player.moveSpeed - 1))
 
 tag.damage = damage
-global.stone -= damage
+other.damage += damage / 10
 
 if (player.augment_bloodlust) {
 	global.PlayerHP += 2

@@ -7,4 +7,3 @@ count = 0
 
 alarm[0] = 1
 trigger = true
-audio_play_sound(snd_bite4, 1, false);

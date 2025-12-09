@@ -14,8 +14,8 @@ else if (room == Boss_Stage_3) {
 	draw_sprite_part(spr_Boss_HP, image_index, 0, 0, global.BossHP, 76, 460, 34);
 	draw_sprite(spr_Boss_Bar, 0, 960, 40)
 }
-//184 - 123
-draw_sprite_ext(healthlife, image_index, 184, 1000-104+123, 400 * (global.PlayerHP / global.PlayerMaxHP), 1, 0, c_white, 1);
-draw_sprite_ext(healthstamina, image_index, 184, 1000-104+167, 400 * (global.PlayerEnergy / 100), 1, 0, c_white, 1);
-draw_sprite(spr_Ch_UI, 0, 0, 1080)
+
+draw_sprite_ext(healthlife, image_index, 184, 50+123, 400 * (global.PlayerHP / global.PlayerMaxHP), 1, 0, c_white, 1);
+draw_sprite_ext(healthstamina, image_index, 184, 50+167, 400 * (global.PlayerEnergy / 100), 1, 0, c_white, 1);
+draw_sprite(spr_Ch_UI, 0, 0, 50)
 //draw_sprite_part(spr_Boss_HP, image_index, 0, 0, global.BossHP, 76, 460, 34);

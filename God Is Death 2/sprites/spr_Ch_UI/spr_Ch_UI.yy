@@ -23,7 +23,7 @@
   ],
   "name":"spr_Ch_UI",
   "nineSlice":null,
-  "origin":6,
+  "origin":0,
   "parent":{
     "name":"UI",
     "path":"folders/Sprites/UI.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":184,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

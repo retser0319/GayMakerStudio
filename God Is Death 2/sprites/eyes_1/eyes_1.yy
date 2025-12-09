@@ -39,7 +39,7 @@
   ],
   "name":"eyes_1",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -140,7 +140,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":1000,
-    "yorigin":500,
+    "yorigin":650,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

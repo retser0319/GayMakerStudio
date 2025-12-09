@@ -1,4 +1,3 @@
-global.Darkness = false
 
-randomize()
-obj_Boss_3_2.alarm[10] = random_range(550,1500)
+var boss = instance_find(obj_Boss_4, 0);
+boss.image_index = 0;

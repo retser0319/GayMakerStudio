@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mouth",
-    "path":"sprites/mouth/mouth.yy",
+    "name":"mouth61",
+    "path":"sprites/mouth61/mouth61.yy",
   },
   "spriteMaskId":null,
   "visible":true,

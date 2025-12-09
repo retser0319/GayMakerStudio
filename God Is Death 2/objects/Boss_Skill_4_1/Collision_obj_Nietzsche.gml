@@ -1,0 +1,1 @@
+global.PlayerHP -= 1
