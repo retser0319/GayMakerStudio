@@ -4,6 +4,5 @@ y = player.y
 count = 0
 
 //image_speed = 0
-
-alarm[0] = 1
 trigger = true
+

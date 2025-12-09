@@ -26,6 +26,7 @@ else if(pattern == 2){
 else if(pattern == 3){
 	instance_create_layer(obj_Nietzsche.x, obj_Nietzsche.y,"Effect",Boss_Skill_2_3)
 	//alarm[10] = 120
+	audio_play_sound(snd_bite4,1,false)
 }
 
 else if(pattern == 5){

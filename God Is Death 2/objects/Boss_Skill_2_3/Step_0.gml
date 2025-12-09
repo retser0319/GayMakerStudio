@@ -1,5 +1,4 @@
 if (image_index > 7) {
-	audio_play_sound(snd_bite4, 1, false);
 	if (place_meeting(x, y, obj_Nietzsche)) 
 	{
 		global.PlayerHP -= 20
