@@ -3,7 +3,7 @@
   "%Name":"TestFonts",
   "AntiAlias":1,
   "applyKerning":0,
-  "ascender":62,
+  "ascender":67,
   "ascenderOffset":0,
   "bold":true,
   "canGenerateBitmap":true,

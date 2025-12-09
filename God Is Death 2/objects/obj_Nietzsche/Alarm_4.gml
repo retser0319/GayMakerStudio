@@ -8,8 +8,8 @@ if (instance_exists(obj_Boss_1)) {
 else if (instance_exists(obj_Boss_2)) {
     boss = instance_nearest(x, y, obj_Boss_2);
 }
-else if (instance_exists(obj_Boss_3)) {
-    boss = instance_nearest(x, y, obj_Boss_3);
+else if (instance_exists(obj_Boss_3_1)) {
+    boss = instance_nearest(x, y, obj_Boss_3_1);
 }
 
 // 2. 보스가 실제로 존재할 때만 방향 설정

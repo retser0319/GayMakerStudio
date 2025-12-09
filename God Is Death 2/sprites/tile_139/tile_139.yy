@@ -23,7 +23,7 @@
   ],
   "name":"tile_139",
   "nineSlice":null,
-  "origin":4,
+  "origin":1,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":96,
-    "yorigin":20,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -9,6 +9,4 @@ else if (mode == "aiming")
 }
 else if (mode == "attack" and speed < 80) {
 	speed += 4
-	
-    audio_play_sound(MP_1, 1, false);
 }
