@@ -16,3 +16,5 @@ image_yscale = 1.5
 
 alarm[0] = 120
 alarm[4] = 120
+
+audio_play_sound(snd_boss3,1,false)

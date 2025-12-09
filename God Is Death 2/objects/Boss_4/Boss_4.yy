@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"eyes",
-    "path":"sprites/eyes/eyes.yy",
+    "name":"eyes_1",
+    "path":"sprites/eyes_1/eyes_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

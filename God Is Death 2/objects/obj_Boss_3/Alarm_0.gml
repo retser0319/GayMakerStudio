@@ -11,7 +11,8 @@ if (skill_num == 2)
 {
 	var X = random_range(100,room_width - 100)
 	var Y = random_range(1400,room_height - 100)
-	instance_create_layer(X,Y, "Effect", Boss_Skill_3_2_Circle)
+	instance_create_layer(X,Y, "UI", Boss_Skill_3_2_Circle)
+	alarm[10] = 60
 	alarm[0] = 480
 }
 /*

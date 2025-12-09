@@ -1,4 +1,4 @@
-if(global.Darkness == false){ //무궁화꽃이피엇습니다 패턴 동안 안나오게
+if(global.Darkness == false and !is_dead){ //무궁화꽃이피엇습니다 패턴 동안 안나오게
 var skill_num = choose(1,5)
 
 if (skill_num == 5) 

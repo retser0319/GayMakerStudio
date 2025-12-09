@@ -1,4 +1,4 @@
 if(attack_count = true){ 
-	global.PlayerHP -= 15
+	global.PlayerHP -= 7
 	attack_count = false
 }

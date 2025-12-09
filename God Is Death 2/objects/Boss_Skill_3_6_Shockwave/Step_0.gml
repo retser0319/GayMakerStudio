@@ -11,6 +11,6 @@ if (mode == "move") {
 
 
 if (image_alpha == 1) {
-	instance_create_layer(0,0,"Back", Back_Static, {image_xscale:3,image_yscale:2})
-	instance_destroy(self)
+	instance_create_layer(0,0,"UI", Back_Static, {image_xscale:3,image_yscale:2})
+	alarm[1] = 60
 }

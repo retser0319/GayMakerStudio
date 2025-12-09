@@ -35,7 +35,8 @@ skill_5_dir = 0
 
 idle_posV = 0
 base_y = y
-
+is_dead = false;
+has_spawned_WC = false;
 global.Darkness = false
 
  audio_play_sound(snd_boss3, 1, false);

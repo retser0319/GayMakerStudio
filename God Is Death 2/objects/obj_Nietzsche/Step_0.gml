@@ -13,13 +13,14 @@ if (lastHP > global.PlayerHP) {
 	lastHP = global.PlayerHP	
 	unDamage = true
 	blend = c_red
+	audio_play_sound(MP_Realistic_Punch,1,false)
 	alarm[0] = 5
 }
 if (global.PlayerHP <= 0) {
 	if (augment_matryoshka and life > 0) {
 		global.PlayerHP = life * 25
 	}
-	game_restart()
+	room_goto(Fail_Screen)
 }
 
 if (status != "attack")
