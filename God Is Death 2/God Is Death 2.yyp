@@ -158,6 +158,8 @@
     {"id":{"name":"fourhandidle","path":"sprites/fourhandidle/fourhandidle.yy",},},
     {"id":{"name":"fpdlwj","path":"sprites/fpdlwj/fpdlwj.yy",},},
     {"id":{"name":"GameOver","path":"sprites/GameOver/GameOver.yy",},},
+    {"id":{"name":"healthlife","path":"sprites/healthlife/healthlife.yy",},},
+    {"id":{"name":"healthstamina","path":"sprites/healthstamina/healthstamina.yy",},},
     {"id":{"name":"lightningball","path":"sprites/lightningball/lightningball.yy",},},
     {"id":{"name":"mouth","path":"sprites/mouth/mouth.yy",},},
     {"id":{"name":"Restart","path":"sprites/Restart/Restart.yy",},},

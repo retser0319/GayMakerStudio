@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_jump.wav",
-  "volume":0.33,
+  "volume":0.01,
 }

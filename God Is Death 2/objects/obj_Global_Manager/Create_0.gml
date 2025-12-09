@@ -14,3 +14,5 @@ global.Card[2] = ""
 global.Augment[0] = ""
 global.Augment[1] = ""
 global.Augment[2] = ""
+
+randomise()
