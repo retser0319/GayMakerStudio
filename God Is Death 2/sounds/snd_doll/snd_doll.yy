@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.37984127,
+  "duration":193.1149,
   "exportDir":"",
   "name":"snd_doll",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_doll.mp3",
-  "volume":1.0,
+  "volume":0.2,
 }
